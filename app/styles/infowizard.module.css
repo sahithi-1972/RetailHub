@@ -1,0 +1,39 @@
+.modal {
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.modalContent {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  overflow-y: auto;
+  height: 500px; /* Set a fixed height */
+}
+
+.modalH3 {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.imageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.modalImage {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 8px;
+  align-self: center;
+}
+
+.button {
+  margin: 10px;
+}
